@@ -373,7 +373,10 @@ template {
   --section-title-color: var(--color-black);
 }
 
-* {
+*::before {
+  box-sizing: border-box;
+}
+*::after {
   box-sizing: border-box;
 }
 
