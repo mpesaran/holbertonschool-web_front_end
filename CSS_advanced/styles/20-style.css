@@ -522,7 +522,9 @@ ul.row {
 }
 
 .row::after{
-  
+  content: none;
+  display: table;
+  float: none;
 }
 
 .col-1-3 {
