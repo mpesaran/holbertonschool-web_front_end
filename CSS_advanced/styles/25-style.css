@@ -444,6 +444,7 @@ a:active {
   border: var(--button-border);
   color: var(--button-color);
   text-decoration: var(--button-text-decoration);
+  font-size: var(--button-font-size);
 }
 
 .button:hover{
@@ -577,6 +578,7 @@ ul.row {
   --text-color: var(--color-white);
   --section-title-color: var(--color-white);
   background-color: var(--color-black);
+  --button-color : var(--color-white);
 }
 
 .footer-address {
