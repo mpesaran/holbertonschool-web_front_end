@@ -686,7 +686,7 @@ ul.row {
   height: 30rem;
   width: 100%;
   object-fit: cover;
-  align-items: bottom;
+  vertical-align: bottom;
 }
 
 .card-work .card-inner {
@@ -697,7 +697,7 @@ ul.row {
   z-index: 1;
 }
 
-.card-inner:hover {
+.card-work .card-inner:hover {
   background-color: rgba(0, 0, 0, 0.7);
 }
 
@@ -724,6 +724,6 @@ ul.row {
   content: "";
 }
 
-.card-work .card-title:hover {
+.card-work:hover .card-title {
   opacity: 1;
 }
